@@ -24,6 +24,13 @@
 - [WebSocket / socket](networking/07-websocket.md)：socket 是接口、不是协议。
 - [负载均衡](networking/08-load-balancing-cdn.md)：L4 看 IP+端口，L7 看 HTTP 内容。
 
+## 在更弱的底座上补出更强的抽象
+
+底层常常只给一个很朴素、甚至有缺陷的能力；上层靠编号、约定、状态表、签名、缓存等机制，补出应用真正想要的高级能力。
+
+- [TCP](networking/05-tcp.md)：IP 只尽力而为，TCP 用序号、确认、重传补出可靠有序字节流。
+- [HTTP / Cookie / Session](networking/09-http-cache-cookie-session.md)：HTTP 天生无状态，Cookie + Session 在独立请求之间补出登录态；缓存给重复请求补"记忆"。
+
 ## 追到最底，是物理 / 人 / 商业
 
 技术链条总有落地的地基——不是某个中央调度，而是物理规则、人工配置、商业合同。

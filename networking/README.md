@@ -14,13 +14,14 @@
 | 06 | [TLS / HTTPS](06-tls.md) | 防偷听（DH 换钥匙）+ 防冒充（证书信任链） |
 | 07 | [WebSocket / socket / HTTP·TCP·UDP](07-websocket.md) | 借 HTTP 升级成双向常开；理清协议与接口 |
 | 08 | [负载均衡 / CDN](08-load-balancing-cdn.md) | 一台扛不住怎么分流；内容怎么就近用户 |
+| 09 | [HTTP / 缓存 / Cookie / Session](09-http-cache-cookie-session.md) | HTTP 一问一答且无状态；缓存让它少问，Cookie/Session 让它认得你 |
 
 ## 一图总览
 
-一次访问大网站，把这八篇全串起来：
+一次访问大网站，把这些篇章串起来：
 
 ![一次访问的完整旅程](assets/full-request-journey.svg)
 
 ## 母题
 
-本洞印证的跨领域母题见 [../patterns.md](../patterns.md)：已建立连接双向可走、信任的内置锚点、分层封装、追到底是物理/人/商业。
+本洞印证的跨领域母题见 [../patterns.md](../patterns.md)：已建立连接双向可走、信任的内置锚点、分层封装、在弱底座上补强抽象、追到底是物理/人/商业。
