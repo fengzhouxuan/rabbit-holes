@@ -30,6 +30,7 @@
 
 - [TCP](networking/05-tcp.md)：IP 只尽力而为，TCP 用序号、确认、重传补出可靠有序字节流。
 - [HTTP / Cookie / Session](networking/09-http-cache-cookie-session.md)：HTTP 天生无状态，Cookie + Session 在独立请求之间补出登录态；缓存给重复请求补"记忆"。
+- [数据库](database/01-storage-pages-buffer-wal.md)：普通文件和磁盘只提供朴素读写，数据库用页、索引、缓存池和日志补出可靠、可查询、可恢复的账本。
 
 ## 追到最底，是物理 / 人 / 商业
 
