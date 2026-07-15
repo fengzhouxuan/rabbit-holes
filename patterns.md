@@ -23,6 +23,7 @@
 - [分层与封装](networking/03-layering.md)：IP / TCP / HTTP 各管一层。
 - [WebSocket / socket](networking/07-websocket.md)：socket 是接口、不是协议。
 - [负载均衡](networking/08-load-balancing-cdn.md)：L4 看 IP+端口，L7 看 HTTP 内容。
+- [事件循环 vs 游戏帧循环](javascript/02-event-loop-vs-game-loop.md)：JS 微任务、宿主 timer、Cocos scheduler 各自属于不同调度层。
 
 ## 在更弱的底座上补出更强的抽象
 
@@ -32,6 +33,7 @@
 - [HTTP / Cookie / Session](networking/09-http-cache-cookie-session.md)：HTTP 天生无状态，Cookie + Session 在独立请求之间补出登录态；缓存给重复请求补"记忆"。
 - [数据库](database/01-storage-pages-buffer-wal.md)：普通文件和磁盘只提供朴素读写，数据库用页、索引、缓存池和日志补出可靠、可查询、可恢复的账本。
 - [JavaScript 运行时](javascript/01-js-runtime.md)：ECMAScript 只定义语言核心，浏览器和 Node.js 作为宿主补出网络、文件、DOM、定时器和事件循环。
+- [工程化](engineering/01-what-is-engineering.md)：人的记忆、手工操作和个人经验都不可靠，工程化用约定、工具、自动化和反馈补出稳定交付。
 
 ## 追到最底，是物理 / 人 / 商业
 

@@ -10,7 +10,8 @@
 |---|---|---|---|
 | [networking](networking/) | 计算机网络 | 从"内网穿透"一路追到 CDN / HTTP 状态，把一次网页访问拆到零件级 | 9 篇 |
 | [database](database/) | 数据库 | 从"数据库文件总不能是文本吧"追到页、索引、缓存池和日志恢复 | 1 篇 |
-| [javascript](javascript/) | JavaScript | 从"JS 运行时到底是什么"追到引擎、宿主环境、事件循环、内存和 native bridge | 1 篇 |
+| [javascript](javascript/) | JavaScript | 从"JS 运行时到底是什么"追到引擎、宿主环境、事件循环、游戏帧、内存和 native bridge | 2 篇 |
+| [engineering](engineering/) | 工程化 | 从"写代码能跑为什么还不够"追到模块边界、自动化、质量门禁、发布回滚和反馈闭环 | 1 篇 |
 | _cicd_ | CI/CD | 待开 | 🚧 |
 
 ## 跨洞母题
